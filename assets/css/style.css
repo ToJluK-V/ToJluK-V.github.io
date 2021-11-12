@@ -1160,6 +1160,46 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #22d8b6;
 }
+.contact .info .social-icons{
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin-top: 0.25rem;
+      margin-bottom: 1rem;
+      padding-left: 0;
+    }
+	.contact .social-icons>li {
+      margin-left: 0.25rem;
+      margin-right: 0.25rem;
+    }
+	.contact .social-icons a {
+      position: relative;
+      background-color: #eee;
+      display: block;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      transition: background-color .3s ease-in-out;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: .25rem;
+    }
+
+   .contact .social-icons a:hover {
+      background-color: #e0e0e0;
+    }
+
+   .contact .social-icons a::before {
+      content: "";
+      position: absolute;
+      width: 1.2rem;
+      height: 1.2rem;
+      left: .65rem;
+      top: .65rem;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1304,3 +1344,5 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
