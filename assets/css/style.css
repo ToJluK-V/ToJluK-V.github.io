@@ -1,9 +1,5 @@
-/**
-* Template Name: Maxim - v4.6.0
-* Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+.error_test { color: red; }
 
 /*--------------------------------------------------------------
 # General
@@ -1032,6 +1028,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info {
   padding: 30px;
   width: 100%;
@@ -1160,7 +1157,7 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #22d8b6;
 }
-.contact .info .social-icons{
+.contact .social-icons{
       display: flex;
       justify-content: center;
       list-style: none;
@@ -1343,6 +1340,15 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+/*--------------------------------------------------------------
+# Button contact
+--------------------------------------------------------------*/
+
+}
+.contact a.portfolio.section-bg {
+  color: #343a40;
+  background-color: #f2f9f8;
 }
 
 
