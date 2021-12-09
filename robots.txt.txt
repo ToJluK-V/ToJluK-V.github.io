@@ -1,0 +1,3 @@
+User-agent: Yandex
+Allow: /
+sitemap: file:///D:/RepGit/tojluk-v.github.io/sitemap.html
